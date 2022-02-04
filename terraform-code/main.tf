@@ -13,3 +13,7 @@ terraform {
     key                  = "backend-state"
   }
 }
+
+provider "azurerm" {
+  features {}
+}
