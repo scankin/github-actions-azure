@@ -1,4 +1,4 @@
-resource azureurm_virtual_network "vnet" {
+resource azurerm_virtual_network "vnet" {
     name = join("-", ["github", "vnet", "actions"])
     location = "uksouth"
     address = ["192.168.0.0/16"]
