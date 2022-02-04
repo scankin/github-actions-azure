@@ -6,7 +6,7 @@ on:
     - main
   pull_request:
 
-job:
+jobs:
   terraform:
     name: 'Terraform'
     env:
